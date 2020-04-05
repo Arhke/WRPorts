@@ -1,0 +1,6 @@
+# Fireworks will be launched from ports which departure time is 1 minute until coming.
+Fireworks: true
+# Particles appear around player when they teleport to their new destination
+Particles: true
+# Can we collect simple usage data?
+Allow Metrics: true

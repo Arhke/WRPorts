@@ -1,0 +1,22 @@
+name: Ports
+version: 1.1.1
+description: Travel at the speed of awesome!
+main: net.johnbrooks.ports.Main
+author: WiseHollow
+website: https://www.spigotmc.org/members/wisehollow.14804/
+api-version: '1.13'
+
+depend: [ WorldEdit ]
+softdepend: [ Multiverse-Core ]
+
+permissions:
+  Ports.Admin:
+    description: Performs administrative tasks regarding Ports.
+    default: op
+
+commands:
+  port:
+    description: Manage server travel ports.
+    usage: /<command> reload|update|version
+    permission: ports.admin
+    permission-message: You don't have <permission>
